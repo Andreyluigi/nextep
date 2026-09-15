@@ -2,12 +2,14 @@ import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Details from './pages/Details';
-import Search from './pages/Search'; 
+import Search from './pages/Search';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <div className="app-container fade-in">
       <Navbar />
+      <ScrollToTop />
       <main className="content-wrapper">
         <Routes>
           <Route path="/" element={<Home />} />

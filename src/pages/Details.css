@@ -97,6 +97,7 @@
   padding-bottom: 1rem;
   margin-bottom: 1.5rem;
   scrollbar-width: none;
+  flex-wrap: wrap;
 }
 
 .season-selector::-webkit-scrollbar {
